@@ -1,0 +1,294 @@
+body {
+  background: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+
+.header {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.8) 100%), url(header-image.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.logo {
+  margin-left: 148px;
+  margin-top: 15px;
+  height: 40px;
+  font-size:2rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: end;
+  margin-right: 164px;
+  margin-top: -40px;
+}
+
+.signin-button {
+  border-radius: 3px;
+  font-weight: 500;
+  border: 0;
+  background: #db0001;
+  color: #f3f3f3;
+  font-size: 14px;
+  padding: 8px 16px;
+  font-family: sans-serif;
+  margin-left: 24px;
+  cursor: pointer;
+}
+
+.language-button {
+  outline: 1ch;
+  border-width: 1px;
+  border-radius: 4px;
+  background: none;
+  color: #fff;
+  padding: 3px 10px;
+  font-size: 17px;
+}
+
+.heading {
+  margin-top: 185px;
+  text-align: center;
+}
+
+.heading-one {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+
+.heading-two {
+  margin-top: -16px;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+.heading-three {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.search-email {
+  width: 383px;
+  height: 48px;
+  background: transparent;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color: dimgray;
+  padding-left: 16px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #f3eeee;
+
+}
+
+.start-button {
+  background: rgb(229, 9, 20);
+  color: rgb(225, 225, 225);
+  padding: 12px 24px;
+  height: 56px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 210px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+.div1 {
+  width: 100%;
+  height: 8px;
+  background-color: rgb(83, 83, 83);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 500px;
+}
+
+.text2-col,
+.text3-col,
+.text4-col,
+.text5-col {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: -40px;
+  font-family: sans-serif;
+}
+
+.text2-col,
+.text4-col {
+  margin-left: 148px;
+}
+
+.sub-header {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: -8px;
+}
+
+.sub-para {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.img-col {
+  width: 50%;
+  display: flex;
+  justify-content: start
+}
+
+.screen2-image {
+  width: 79%;
+  margin-left: -25px;
+}
+
+.screen3-image {
+  width: 63%;
+  margin-left: 160px;
+}
+
+.text3-col,
+.text5-col {
+  margin-left: 12px;
+}
+
+.screen4-image {
+  margin-left: -25px;
+  width: 80%;
+}
+
+.screen5-image {
+  margin-left: 160px;
+  width: 60%;
+}
+
+.final-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.finalsub-header {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: sans-serif;
+  margin-top: 65px;
+  ;
+}
+
+.question {
+  width: 983px;
+  background-color: rgb(66, 66, 66);
+  margin-top: 10px;
+  font-size: 24px;
+  font-family: sans-serif;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.ques-text {
+  padding: 4px 24px;
+  width: 50%;
+}
+
+.icon-div {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon {
+  width: 7%;
+  height: 35px;
+  padding-right: 20px;
+  padding-top: 24px;
+}
+
+.membership {
+  width: 920px;
+  height: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.membership-text {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.sub-form {
+  margin-bottom: 80px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  height: 50vh;
+  font-size: 15px;
+  color: rgb(246, 247, 247);
+  font-family: sans-serif;
+}
+
+.footertext1 {
+  width: 100%;
+}
+
+.footer2 {
+  width: 100%;
+  height: 150%;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: underline;
+  font-size: 15px;
+
+
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+
+}
+
+ul {
+  cursor: pointer;
+}
+
+.language {
+  outline: 1ch;
+  border-width: 1px;
+  border-radius: 4px;
+  background: none;
+  color: #fff;
+  padding: 3px 10px;
+  font-size: 17px;
+  border-color: #f3eeee;
+  margin-bottom: 20px;
+}
+
+
